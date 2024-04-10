@@ -1,0 +1,54 @@
+### Complete all incomplete class by adding data you want, constructors, getters, setters, and toString() method ###
+
+Once you all complete, provide information what you did in this Readme.md file.
+
+
+Class name - Desk
+    EXPLAIN: I added "private Size size", "private boolean isWood", and "private String color" because those were the things I could think of to
+    describe a desk. After that, I added the constructor, setters, and getters. And, then the toString method with an if-else statement for the
+    boolean variable, followed by the return statement [return String.format("Size of Desk: %s\nIs it made of wood?: %s\nColor: %s\n",size, isWood, color)].
+
+Class name - Door
+    EXPLAIN: I added "private boolean isWood" and "private String color" because those were the things I could think of to describe a door.
+    After that, I added the constructor, setters, and getters. And, then the toString method with an if-else statement for the boolean
+    variable, followed by the return statement [return String.format("Is it made of wood?: %s\nColor: %s\n",isWood, color)].
+
+Class name - Dresser
+    EXPLAIN: I added "private int numOfDressers" and "private boolean isWood" because those were the things I could think of to describe a
+    dresser, without getting too complicated. After that, I added the constructor, setters, and getters. And, then the toString method with
+    an if-else statement for the boolean variable that you showed us for the Bed class, followed by the return statement
+    [return String.format("Dressers: %s\nIs it wooden?: %s\n",numOfDressers, isWood)].
+
+Class name - Light
+    EXPLAIN: I added "private boolean hasLamp", "private boolean attachedFan", and "private int numOfLights" because those were the things I could
+    think of to describe lights in a bedroom. After that, I added the constructor, setters, and getters. And, then the toString method with an
+    if-else statement for the boolean variable, followed by the return statement
+    [return String.format("Is there a lamp?: %s\nIs there a ceiling fan?: %s\nNumber of Lights: %s",hasLamp, attachedFan, numOfLights)].
+
+Class name - Outlet
+    EXPLAIN: I added "private int numOfOutlets" because that was the only thing I could think of to describe an outlet. After that, I added the
+    constructor, setters, and getters. And, then the toString method with the return statement [return String.format("Number of outlets: %s",numOfOutlets)].
+
+Class name - Rug
+    EXPLAIN: I added "private Size size", "private String color", and "private boolean hasPattern" because those were the things I could think of to
+    describe a rug. After that, I added the constructor, setters, and getters. And, then the toString method with an if-else statement for the boolean
+    variable, followed by the return statement [return String.format("Size of Rug: %s\nColor: %s\nDoes it have a pattern?: %s\n",size, color, hasPattern)].
+
+Class name - Ventilation
+    EXPLAIN: I added "private int numOfVents" because that was the only thing I could think of to describe an air vents. After that, I added the constructor,
+    setters, and getters. And, then the toString method with the return statement [return String.format("Number of vents: %s",numOfVents)].
+
+Class name - Wall
+    EXPLAIN: I added "private WallSize size" and "private String color" because those were the things I could think of to describe a wall. After that, I added
+    the constructor, setters, and getters. And, then the toString method with an if-else statement for the boolean variable that you showed us for the Bed
+    class, followed by the return statement [return String.format("Area of wall: %s\nColor: %s\n",size, color)].
+
+Class name - WallSize
+    EXPLAIN: I made this class because to get the area of a wall for the Wall class, I need height and width, rather than width and length because
+    technically, when talking about a wall, width and length can be represented by the same number. In that case, this class is almost identical to
+    the Size class, with the exception of height becoming length.
+
+Class name - Window
+    EXPLAIN: I added "private int numOfWindows" because that was the only thing I could think of to describe an air vents. After that, I added the
+    constructor, setters, and getters. And, then the toString method with the return statement [return String.format("Number of Windows: %s", numOfWindows)].
+
